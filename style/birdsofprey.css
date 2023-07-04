@@ -1,0 +1,183 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.head-0 {
+  background-image: url(../images/bg1.jpg);
+  height: 500px;
+  width: 70%;
+  margin: auto;
+  background-position: left left;
+  background-size: cover;
+  border-radius: 12px;
+}
+
+nav ul {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  text-align: right;
+  padding-right: 16px;
+  padding-left: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  font-size: 24px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-top: 5px;
+  margin-bottom: 1px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+nav ul li:hover {
+  background-color: black;
+}
+
+.head-1 {
+  margin-top: 1px;
+}
+
+.head-1 h1 {
+  padding-top: 120px;
+  padding-left: 50px;
+  font-size: 90px;
+  text-align: left;
+  text-shadow: 3px 3px 3px black;
+  color: white;
+  margin-bottom: 1px;
+}
+
+.head-1 p {
+  border-radius: 15px;
+  margin-top: 0;
+  margin-left: 45px;
+  width: 500px;
+  padding: 15px;
+  font-size: 22px;
+  text-align: left;
+  text-shadow: 2px 2px 2px black;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+.head-1 p:hover {
+  background-color: black;
+}
+
+main {
+  width: 65%;
+  margin: auto;
+}
+
+.summary {
+  letter-spacing: 1px;
+}
+
+main p {
+  font-size: 18px;
+}
+
+main h3 {
+  font-size: 22px;
+}
+
+.header-1 p {
+  font-size: 20px;
+}
+
+main summary {
+  list-style: none;
+  font-weight: bolder;
+  margin-top: 15px;
+  letter-spacing: 2px;
+  font-size: 32px;
+  background-color: #e6e6e6af;
+  border-radius: 3px;
+  padding: 5px;
+  border-radius: 12px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.25s;
+  will-change: background-color;
+  border: solid 1px var(--gray-lighter);
+}
+
+main summary:hover {
+  background-color: #ccc;
+}
+
+.birdSpecies details {
+  margin: auto;
+  width: 95%;
+  font-size: 24px;
+  margin-top: 12px;
+}
+
+.bird-sum {
+  font-size: 24px;
+}
+
+.bird-article {
+  width: 97%;
+  margin: auto;
+}
+
+.bird-article h4 {
+  font-size: 22px;
+  margin-bottom: 2px;
+}
+
+.birds .hunting-skills img {
+  margin-top: 20px;
+  width: 500px;
+  border-radius: 15px;
+  float: right;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.birds .adaptation img {
+  margin-top: 20px;
+  width: 500px;
+  border-radius: 15px;
+  float: right;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.birdSpecies .bird-article .hawk,
+img {
+  margin-top: 20px;
+  width: 500px;
+  border-radius: 15px;
+  float: right;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.birdSpecies .bird-article img {
+  width: 300px;
+}
